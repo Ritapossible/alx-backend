@@ -12,7 +12,7 @@ class FIFOCache(BaseCaching):
     """
 
     def __init__(self):
-         """
+        """
         Init method
         """
         super().__init__()
