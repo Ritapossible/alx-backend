@@ -1,0 +1,54 @@
+{
+  "name": "queuing_system_in_js",
+  "version": "1.0.0",
+  "description": "ALX Project for learning queuing system in JS",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js",
+    "lint-all": "./node_modules/.bin/eslint [0-9]*.js",
+    "lint-fix-all": "./node_modules/.bin/eslint --fix [0-9]*.js",
+    "test": "./node_modules/.bin/mocha --require @babel/register --exit",
+    "dev": "nodemon --exec babel-node --presets @babel/preset-env"
+  },
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "kue": "^0.11.6",
+    "redis": "^4.6.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.8.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.0",
+    "sinon": "^15.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eninetjanice/alx-backend.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Janeth Eni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eninetjanice/alx-backend/issues"
+  },
+  "homepage": "https://github.com/Eninetjanice/alx-backend/tree/master/0x03-queuing_system_in_js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x",
+    "yarn": "0.x"
+  }
+}
